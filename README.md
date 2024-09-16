@@ -10,7 +10,7 @@ First off, thanks to https://www.youtube.com/watch?v=y6XCebnB9gs for starting me
 ## zsh
 - zsh - install from [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms)
 - fzf - install from [here](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
-- git - should be installed by default, if not is sadge GLHF
+- git - should be installed by default, if not it can be installed [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - A NerdFont - I use JetBrainsMono, there's a full list for download [here](https://www.nerdfonts.com/font-downloads)
 
 ## neovim 
