@@ -16,6 +16,7 @@ First off, thanks to https://www.youtube.com/watch?v=y6XCebnB9gs for starting me
 
 ## neovim 
 - NeoVim (use tagged releases for telescope!!) - install from [here](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+- LazyVim - install from [here](https://www.lazyvim.org/installation)
 - ripgrep - install from [here](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 - fzf - install from [here](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
 
