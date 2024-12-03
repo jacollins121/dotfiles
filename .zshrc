@@ -17,13 +17,15 @@ autoload -U compinit && compinit
 zinit cdreplay -q
 
 # Oh My Posh
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/jer.yaml)"
+#eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/jer.yaml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/atomicBit.omp.json)"
 
 # Keybinds
 bindkey '^b' history-search-backward
 bindkey '^n' history-search-forward
 
 # Command history
+HIST_STAMPS="%d/%m/%y %T"
 HISTSIZE=1000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
