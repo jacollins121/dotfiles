@@ -7,6 +7,7 @@ That's what this file is here to do
 # Prerequisites
 First off, thanks to https://www.youtube.com/watch?v=y6XCebnB9gs for starting me on this awesome journey
 
+
 ## zsh
 - zsh - install from [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms)
 - fzf - install from [here](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
@@ -24,6 +25,10 @@ First off, thanks to https://www.youtube.com/watch?v=y6XCebnB9gs for starting me
     ```bash
     brew install stow
     ```
+    - RHEL/Fedora
+    ```bash
+    sudo dnf install -y stow
+    ```
     - Ubuntu
     ```bash
     sudo apt install -y stow
@@ -36,3 +41,6 @@ First off, thanks to https://www.youtube.com/watch?v=y6XCebnB9gs for starting me
     ```bash
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm)
     ```
+
+## reference links
+- stow dotfiles - https://www.youtube.com/watch?v=y6XCebnB9gs
