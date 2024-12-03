@@ -17,7 +17,7 @@ autoload -U compinit && compinit
 zinit cdreplay -q
 
 # Oh My Posh
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/sam.yaml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/jer.yaml)"
 
 # Keybinds
 bindkey '^b' history-search-backward
@@ -40,6 +40,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
 # Aliases
 alias ls='ls --color'
+alias ll='ls -alh'
 
 # Env vars
 export YSU_MESSAGE_POSITION="after"
@@ -51,5 +52,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:~/.local/bin:$PATH
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 # Shell integration
-eval "$(zoxide init zsh)"
-# source <(fzf --zsh)
+source <(fzf --zsh)
