@@ -5,7 +5,7 @@ it doesn't tell me anything about what I need to install to make sure they're se
 That's what this file is here to do.
 
 # Prerequisites
-First off, thanks to [Dreams of Autonomy - Stow manage dotfiles](https://www.youtube.com/watch?v=y6XCebnB9gs) for starting me on this awesome journey
+Thanks to [Dreams of Autonomy - Stow manage dotfiles](https://www.youtube.com/watch?v=y6XCebnB9gs) for getting me started!
 
 
 ## zsh
