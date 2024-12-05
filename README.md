@@ -9,15 +9,15 @@ First off, thanks to [Dreams of Autonomy - Stow manage dotfiles](https://www.you
 
 
 ## zsh
-- zsh - can be installed from [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms)
-- fzf - 'fuzzy find' can be installed from [here](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
+- zsh - install from [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms)
+- fzf - 'fuzzy find' instal from [here](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
 - git - should be installed by default, if not it can be installed from [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - A NerdFont - I use JetBrainsMono, there's a full list for download [here](https://www.nerdfonts.com/font-downloads)
-- ripgrep - can be installed from [here](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
+- ripgrep - install from [here](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 
 ## neovim 
-- NeoVim - installed from [here](https://github.com/neovim/neovim/blob/master/INSTALL.md)
-- LazyVim - add-on to nvim can be installed from [here](https://www.lazyvim.org/installation)
+- NeoVim - install from [here](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+- LazyVim - add-on to nvim install from [here](https://www.lazyvim.org/installation)
 
 ## stow-based dotfiles management
 - stow
