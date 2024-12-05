@@ -7,8 +7,8 @@ source "${ZINIT_HOME}/zinit.zsh"
 
 # Syntax highlighting/completion
 zinit light zsh-users/zsh-syntax-highlighting
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
+#zinit light zsh-users/zsh-completions
+#zinit light zsh-users/zsh-autosuggestions
 zinit light MichaelAquilina/zsh-you-should-use
 
 # Load completions
@@ -43,6 +43,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 # Aliases
 alias ls='ls --color'
 alias ll='ls -alh'
+alias vim='nvim'
 
 # Env vars
 export YSU_MESSAGE_POSITION="after"
@@ -55,3 +56,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:~/.local/bin:$PATH
 
 # Shell integration
 source <(fzf --zsh)
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
