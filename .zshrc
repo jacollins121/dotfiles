@@ -25,7 +25,6 @@ bindkey '^b' history-search-backward
 bindkey '^n' history-search-forward
 
 # Command history
-HIST_STAMPS="%d/%m/%y %T"
 HISTSIZE=1000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
@@ -41,6 +40,7 @@ setopt hist_find_no_dups
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
 # Aliases
+alias history='history -f'
 alias ls='ls --color'
 alias ll='ls -alh'
 alias vim='nvim'
