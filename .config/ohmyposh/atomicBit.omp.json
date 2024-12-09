@@ -13,7 +13,10 @@
           "foreground": "#ff5555",
           "style": "plain",
           "template": "<#ffffff>[</>{{ .Path }}<#ffffff>]</>",
-          "type": "path"
+          "type": "path",
+          "properties": {
+            "style": "full"
+          }
         },
         {
           "foreground": "#FF9248",
