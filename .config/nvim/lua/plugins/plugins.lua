@@ -72,6 +72,7 @@ return {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
+        terraformls = {},
       },
     },
   },
@@ -118,6 +119,7 @@ return {
   -- add more treesitter parsers
   {
     "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
     opts = {
       ensure_installed = {
         "bash",
@@ -142,6 +144,9 @@ return {
         "vim",
         "xml",
         "yaml",
+      },
+      highlight = {
+        enable = true,
       },
     },
   },
