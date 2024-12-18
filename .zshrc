@@ -28,7 +28,7 @@ bindkey '^n' history-search-forward
 HISTSIZE=1000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
-HISTDUP=erase
+#HISTDUP=erase
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
