@@ -25,7 +25,7 @@ bindkey '^b' history-search-backward
 bindkey '^n' history-search-forward
 
 # Command history
-HISTSIZE=1000
+HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 #HISTDUP=erase
@@ -56,4 +56,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:~/.local/bin:$PATH
 
 # Shell integration
 source <(fzf --zsh)
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:$PATH"
