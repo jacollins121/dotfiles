@@ -17,7 +17,6 @@ autoload -U compinit && compinit
 zinit cdreplay -q
 
 # Oh My Posh
-#eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/jer.yaml)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/atomicBit.omp.json)"
 
 # Keybinds
@@ -57,3 +56,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:~/.local/bin:$PATH
 # Shell integration
 source <(fzf --zsh)
 export PATH="/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:$PATH"
+eval "$(zoxide init zsh)"
