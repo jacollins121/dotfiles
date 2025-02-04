@@ -1,0 +1,27 @@
+{
+  "schemes" : [
+    {
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "control" : {
+              "type" : "zoom"
+            }
+          }
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x4d9",
+          "productName" : "USB Gaming Mouse",
+          "productID" : "0xfc61",
+          "category" : "mouse"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0"
+}
