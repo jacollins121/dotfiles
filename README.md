@@ -7,9 +7,7 @@ The goal of this repo is to have a central location to store all configs and mak
 ```sudo dnf copr enable scottames/ghostty && sudo dnf install ghostty```
 
 ### stow-based dotfiles management
-- stow
-    - RHEL/Fedora
-    ```sudo dnf install -y stow```
+```sudo dnf install -y stow```
 
 
 # MacOS Systems
