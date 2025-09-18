@@ -1,6 +1,7 @@
 # dotfiles
 The goal of this repo is to have a central location to store all configs and make initial system set ups quick and easy
 
+
 # Fedora-based Systems
 
 ### Ghostty Terminal Emulator
@@ -22,6 +23,7 @@ The goal of this repo is to have a central location to store all configs and mak
 
 ### nvim
 ```sudo dnf install -y nvim```
+
 
 # MacOS Systems
 ## homebrew (macos)
