@@ -14,6 +14,8 @@ The goal of this repo is to have a central location to store all configs and mak
 
 ```oh-my-posh font install AdwaitaMono```
 
+Add the following line to .bashrc:
+
 ```eval "$(oh-my-posh init bash --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/atomicBit.omp.json')"```
 
 ### tmux
