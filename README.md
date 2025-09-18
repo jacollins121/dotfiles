@@ -6,10 +6,11 @@ The goal of this repo is to have a central location to store all configs and mak
 ### Ghostty Terminal Emulator
 ```sudo dnf copr enable scottames/ghostty && sudo dnf install ghostty```
 
-## tmux
-  ``` sudo dnf install tmux```
-- tmux package manager (tpm)
-  ```git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
+### tmux
+``` sudo dnf install tmux```
+
+### tmux package manager (tpm)
+```git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
 
 ### stow-based dotfiles management
 ```sudo dnf install -y stow```
