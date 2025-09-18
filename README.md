@@ -8,6 +8,7 @@ The goal of this repo is to have a central location to store all configs and mak
 
 ### Terminal themes
 [ohmyposh themes](https://ohmyposh.dev/docs/installation/linux)
+
 ```curl -s https://ohmyposh.dev/install.sh | bash -s```
 
 ### tmux
