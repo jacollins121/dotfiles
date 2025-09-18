@@ -15,6 +15,9 @@ The goal of this repo is to have a central location to store all configs and mak
 ### stow-based dotfiles management
 ```sudo dnf install -y stow```
 
+### nvim
+```sudo dnf install -y nvim```
+
 
 # MacOS Systems
 ## homebrew (macos)
