@@ -6,6 +6,10 @@ The goal of this repo is to have a central location to store all configs and mak
 ### Ghostty Terminal Emulator
 ```sudo dnf copr enable scottames/ghostty && sudo dnf install ghostty```
 
+### Terminal themes
+[ohmyposh themes](https://ohmyposh.dev/docs/installation/linux)
+```curl -s https://ohmyposh.dev/install.sh | bash -s```
+
 ### tmux
 ``` sudo dnf install tmux```
 
@@ -17,7 +21,6 @@ The goal of this repo is to have a central location to store all configs and mak
 
 ### nvim
 ```sudo dnf install -y nvim```
-
 
 # MacOS Systems
 ## homebrew (macos)
