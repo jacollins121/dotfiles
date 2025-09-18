@@ -12,6 +12,10 @@ The goal of this repo is to have a central location to store all configs and mak
 
 ```curl -s https://ohmyposh.dev/install.sh | bash -s```
 
+```oh-my-posh font install AdwaitaMono```
+
+```eval "$(oh-my-posh init bash --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/atomicBit.omp.json')"```
+
 ### tmux
 ``` sudo dnf install tmux```
 
