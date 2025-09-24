@@ -38,7 +38,11 @@ Add the following line to .bashrc:
 
 ### stow-based dotfiles management
 - stow
-    - MacOS
     ```bash
     brew install stow
     ```
+
+- tmux
+  ```
+  brew install tmux
+  ```
