@@ -19,7 +19,7 @@ Add the following line to .bashrc:
 ```eval "$(oh-my-posh init bash --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/atomicBit.omp.json')"```
 
 ### tmux
-``` sudo dnf install tmux```
+``` sudo dnf install -y tmux```
 
 ### tmux package manager (tpm)
 ```git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
