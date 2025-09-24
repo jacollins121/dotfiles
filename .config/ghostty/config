@@ -49,5 +49,5 @@
 # resize-overlay-duration = 4s 200ms
 maximize
 font-size = 18
-backgrount-opacity = 0.90
+background-opacity = 0.90
 copy-on-select = clipboard
