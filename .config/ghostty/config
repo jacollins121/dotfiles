@@ -50,4 +50,5 @@
 maximize
 font-size = 18
 background-opacity = 0.90
+mouse-hide-while-typing = true
 copy-on-select = clipboard
